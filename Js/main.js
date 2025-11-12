@@ -6,179 +6,233 @@ const productos = [
         titulo: "Arete 01",
         imagen: "./Imagen/aretes1.png",
         categoria: {
-            nombre: "aretes",
+            nombre: "Aretes",
             id: "aretes"
         },
         precio: 1000
     },
-  /*  {
-        id: "arete-02",
+    {
+        id: "aretes-02",
         titulo: "Arete 02",
-        imagen: "./img/abrigos/02.jpg",
+        imagen: "./Imagen/aretes2.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Aretes",
+            id: "aretes"
         },
         precio: 1000
     },
     {
-        id: "arete-03",
+        id: "aretes-03",
         titulo: "Arete 03",
-        imagen: "./img/abrigos/03.jpg",
+        imagen: "./Imagen/aretes3.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Aretes",
+            id: "aretes"
         },
         precio: 1000
     },
     {
-        id: "arete-04",
+        id: "aretes-04",
         titulo: "Arete 04",
-        imagen: "./img/abrigos/04.jpg",
+        imagen: "./Imagen/aretes4.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Aretes",
+            id: "aretes"
         },
         precio: 1000
     },
     {
-        id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "./img/abrigos/05.jpg",
+        id: "aretes-05",
+        titulo: "Arete 05",
+        imagen: "./Imagen/aretes5.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Aretes",
+            id: "aretes"
+        },
+        precio: 1000
+    },
+    //collares
+    {
+        id: "collar-01",
+        titulo: "Collar 01",
+        imagen: "./Imagen/collar1.png",
+        categoria: {
+            nombre: "Collar",
+            id: "collar"
         },
         precio: 1000
     },
     {
-        id: "camiseta-01",
-        titulo: "Camiseta 01",
-        imagen: "./img/camisetas/01.jpg",
+        id: "collar-02",
+        titulo: "Collar 02",
+        imagen: "./Imagen/collar2.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Collar",
+            id: "collar"
         },
         precio: 1000
     },
     {
-        id: "camiseta-02",
-        titulo: "Camiseta 02",
-        imagen: "./img/camisetas/02.jpg",
+        id: "collar-03",
+        titulo: "Collar 03",
+        imagen: "./Imagen/collar3.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Collar",
+            id: "collar"
         },
         precio: 1000
     },
     {
-        id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "./img/camisetas/03.jpg",
+        id: "collar-04",
+        titulo: "Collar 04",
+        imagen: "./Imagen/collar4.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Collar",
+            id: "collar"
         },
         precio: 1000
     },
     {
-        id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "./img/camisetas/04.jpg",
+        id: "collar-05",
+        titulo: "Collar 05",
+        imagen: "./Imagen/collar5.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Collar",
+            id: "collar"
+        },
+        precio: 1000
+    },
+    //pulseras
+    {
+        id: "pulsera-01",
+        titulo: "Pulsera 01",
+        imagen: "./Imagen/pulsera1.png",
+        categoria: {
+            nombre: "Pulsera",
+            id: "pulsera"
         },
         precio: 1000
     },
     {
-        id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "./img/camisetas/05.jpg",
+        id: "pulsera-02",
+        titulo: "Pulsera 02",
+        imagen: "./Imagen/pulsera2.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Pulsera",
+            id: "pulsera"
         },
         precio: 1000
     },
     {
-        id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "./img/camisetas/06.jpg",
+        id: "pulsera-03",
+        titulo: "Pulsera 03",
+        imagen: "./Imagen/pulsera3.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Pulsera",
+            id: "pulsera"
         },
         precio: 1000
     },
     {
-        id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "./img/camisetas/07.jpg",
+        id: "pulsera-04",
+        titulo: "Pulsera 04",
+        imagen: "./Imagen/pulsera4.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Pulsera",
+            id: "pulsera"
         },
         precio: 1000
     },
     {
-        id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "./img/camisetas/08.jpg",
+        id: "pulsera-05",
+        titulo: "Pulsera 05",
+        imagen: "./Imagen/pulsera5.png",
         categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
+            nombre: "Pulsera",
+            id: "pulsera"
+        },
+        precio: 1000
+    },
+    //reloj
+    {
+        id: "reloj-01",
+        titulo: "Reloj 01",
+        imagen: "./Imagen/reloj1.png",
+        categoria: {
+            nombre: "Reloj",
+            id: "reloj"
         },
         precio: 1000
     },
     {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "./img/pantalones/01.jpg",
+        id: "reloj-02",
+        titulo: "Reloj 02",
+        imagen: "./Imagen/reloj2.png",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Reloj",
+            id: "reloj"
         },
         precio: 1000
     },
     {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "./img/pantalones/02.jpg",
+        id: "reloj-03",
+        titulo: "Reloj 03",
+        imagen: "./Imagen/reloj3.png",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Reloj",
+            id: "reloj"
         },
         precio: 1000
     },
     {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "./img/pantalones/03.jpg",
+        id: "reloj-04",
+        titulo: "Reloj 04",
+        imagen: "./Imagen/reloj4.png",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Reloj",
+            id: "reloj"
         },
         precio: 1000
     },
     {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "./img/pantalones/04.jpg",
+        id: "reloj-05",
+        titulo: "Reloj 05",
+        imagen: "./Imagen/reloj5.png",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Reloj",
+            id: "reloj"
         },
         precio: 1000
-    },
-    {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "./img/pantalones/05.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    }*/
+    }, 
 ];
+
+const contenedorProductos = document.querySelector("#contenedor-producto");
+const botonesCategoria = document.querySelector(".botones-categorias");
+function cargarProductos() {
+
+    productos.forEach(producto => {
+
+        const div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = `
+            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+            <div class="producto-detalles">
+                <h3 class="producto-titulo">${producto.titulo}</h3>
+                <p class="producto-precio">${producto.precio}</p>
+                <button class="producto-agregar" id= ${producto.id}> Agregar </button>
+            </div>
+        `;
+
+        contenedorProductos.append(div)
+    })
+
+}
+
+/*<div class="producto">
+    <img class="producto-imagen" src="Imagen/reloj4.png" alt="">
+    <div class="producto-detalles">
+        <h3 class="producto-titulo"> Reloj 4 </h3>
+        <p class="producto-precio"> 50.00 $ </p>
+        <button class="producto-agregar"> Agregar </button>
+    </div>
+</div>*/
