@@ -51,7 +51,6 @@ const productos = [
         },
         precio: 1000
     },
-    // Camisetas
     {
         id: "camiseta-01",
         titulo: "Camiseta 01",
@@ -132,7 +131,6 @@ const productos = [
         },
         precio: 1000
     },
-    // Pantalones
     {
         id: "pantalon-01",
         titulo: "Pantalón 01",
