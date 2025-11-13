@@ -209,7 +209,6 @@ const productos = [
 const contenedorProductos = document.querySelector("#contenedor-producto");
 const botonesCategoria = document.querySelector(".botones-categorias");
 function cargarProductos() {
-
     productos.forEach(producto => {
 
         const div = document.createElement("div");
