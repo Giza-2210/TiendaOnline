@@ -157,7 +157,7 @@ const productos = [
     {
         id: "reloj-01",
         titulo: "Reloj 01",
-        imagen: "./Imagen/reloj1.png",
+        imagen: "./Imagen/reloj1..png",
         categoria: {
             nombre: "Reloj",
             id: "reloj"
@@ -206,8 +206,8 @@ const productos = [
     }, 
 ];
 
-const contenedorProductos = document.querySelector("#contenedor-producto");
-const botonesCategoria = document.querySelector(".botones-categorias");
+const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesCategorias = document.querySelector(".boton-categoria");
 function cargarProductos() {
     productos.forEach(producto => {
 
@@ -222,11 +222,22 @@ function cargarProductos() {
             </div>
         `;
 
-        contenedorProductos.append(div)
+        contenedorProductos.append(div);
     })
 
 }
 
+cargarProductos();
+
+botonesCategorias.forEach(boton => {
+    boton.addEventListener("click", (e) => {
+
+        botonesCategorias.forEach(boton => boton.classList.remove("active"));
+
+        e.currentTarget.classList.add("active");
+
+    })
+})
 /*<div class="producto">
     <img class="producto-imagen" src="Imagen/reloj4.png" alt="">
     <div class="producto-detalles">
