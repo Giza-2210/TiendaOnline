@@ -207,7 +207,7 @@ const productos = [
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
-const botonesCategorias = document.querySelector(".boton-categoria");
+const botonesCategorias = document.querySelectorAll(".boton-categoria");
 function cargarProductos() {
     productos.forEach(producto => {
 
@@ -228,6 +228,7 @@ function cargarProductos() {
 }
 
 cargarProductos();
+
 console.log(botonesCategorias, typeof botonesCategorias);
 botonesCategorias.forEach(boton => {
 
@@ -237,5 +238,5 @@ botonesCategorias.forEach(boton => {
 
         e.currentTarget.classList.add("active");
 
-    })
+    })
 })
