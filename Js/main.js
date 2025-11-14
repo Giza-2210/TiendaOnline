@@ -58,7 +58,7 @@ const productos = [
         imagen: "./Imagen/collar1.png",
         categoria: {
             nombre: "Collar",
-            id: "collar"
+            id: "collares"
         },
         precio: 1000
     },
@@ -68,7 +68,7 @@ const productos = [
         imagen: "./Imagen/collar2.png",
         categoria: {
             nombre: "Collar",
-            id: "collar"
+            id: "collares"
         },
         precio: 1000
     },
@@ -78,7 +78,7 @@ const productos = [
         imagen: "./Imagen/collar3.png",
         categoria: {
             nombre: "Collar",
-            id: "collar"
+            id: "collares"
         },
         precio: 1000
     },
@@ -88,7 +88,7 @@ const productos = [
         imagen: "./Imagen/collar4.png",
         categoria: {
             nombre: "Collar",
-            id: "collar"
+            id: "collares"
         },
         precio: 1000
     },
@@ -98,7 +98,7 @@ const productos = [
         imagen: "./Imagen/collar5.png",
         categoria: {
             nombre: "Collar",
-            id: "collar"
+            id: "collares"
         },
         precio: 1000
     },
@@ -109,7 +109,7 @@ const productos = [
         imagen: "./Imagen/pulsera1.png",
         categoria: {
             nombre: "Pulsera",
-            id: "pulsera"
+            id: "pulseras"
         },
         precio: 1000
     },
@@ -119,7 +119,7 @@ const productos = [
         imagen: "./Imagen/pulsera2.png",
         categoria: {
             nombre: "Pulsera",
-            id: "pulsera"
+            id: "pulseras"
         },
         precio: 1000
     },
@@ -129,7 +129,7 @@ const productos = [
         imagen: "./Imagen/pulsera3.png",
         categoria: {
             nombre: "Pulsera",
-            id: "pulsera"
+            id: "pulseras"
         },
         precio: 1000
     },
@@ -139,7 +139,7 @@ const productos = [
         imagen: "./Imagen/pulsera4.png",
         categoria: {
             nombre: "Pulsera",
-            id: "pulsera"
+            id: "pulseras"
         },
         precio: 1000
     },
@@ -149,7 +149,7 @@ const productos = [
         imagen: "./Imagen/pulsera5.png",
         categoria: {
             nombre: "Pulsera",
-            id: "pulsera"
+            id: "pulseras"
         },
         precio: 1000
     },
@@ -228,8 +228,9 @@ function cargarProductos() {
 }
 
 cargarProductos();
-
+console.log(botonesCategorias, typeof botonesCategorias);
 botonesCategorias.forEach(boton => {
+
     boton.addEventListener("click", (e) => {
 
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
@@ -238,11 +239,3 @@ botonesCategorias.forEach(boton => {
 
     })
 })
-/*<div class="producto">
-    <img class="producto-imagen" src="Imagen/reloj4.png" alt="">
-    <div class="producto-detalles">
-        <h3 class="producto-titulo"> Reloj 4 </h3>
-        <p class="producto-precio"> 50.00 $ </p>
-        <button class="producto-agregar"> Agregar </button>
-    </div>
-</div>*/
