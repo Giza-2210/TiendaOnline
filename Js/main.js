@@ -263,6 +263,12 @@ function actualizarBotonesAgregar () {
         boton.addEventListener("click", agregarAlCarrito);
     });
 }
+
+//let productosEnCarrito;
+
+//let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+//const productosEnCarritoLS = JSON.parse(localStorage.getItem("productos-en-carrito"));
+
 const productosEnCarrito = [];
 function agregarAlCarrito(e) {
 
