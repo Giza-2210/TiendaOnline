@@ -229,7 +229,6 @@ function cargarProductos() {
 
 cargarProductos();
 
-console.log(botonesCategorias, typeof botonesCategorias);
 botonesCategorias.forEach(boton => {
 
     boton.addEventListener("click", (e) => {
