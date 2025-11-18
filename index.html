@@ -60,10 +60,86 @@
             </div>
         </main>
     </div>
+<!--CARRITO-->
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Victoria Jewelry</h1>
+            </header>
+            <nav>
+                <!--<ul>
+                    <li>
+                      <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-left-circle-fill"></i> Seguir comprando
+                        </a> 
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>-->
+            </nav>
+            <footer>
+                <p class="texto-footer">© Victoria Jewelry</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-tear-fill"></i> </p>
+
+                <div id= "carrito-productos"class="carrito-productos disabled">
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./Imagen/aretes1.png" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Titulo</small>
+                            <h3>Arete 1</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>50</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>50</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash3"></i></button>
+                    </div>
+                </div>
+                <div class="carrito-productos">
+
+                <div id= "carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar"> Vaciar Carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total</p>
+                            <p id="total">150.00 $</p>
+                        </div>
+                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id= "carrito-comprado"class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi 
+                bi-emoji-smile-fill"></i></p>
+            </div>
+
+        </main>
+    </div>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/productos.json"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
-</html>
+</html> 
